@@ -1,5 +1,4 @@
 #include <iostream>
-#include <iomanip>
 
 int main () {
     double celcius;
@@ -15,7 +14,6 @@ int main () {
     std::cout<< "ingrese que formula quiere usar, solo pon la inicial principal (´F´ahrenheit, ´K´elvin, ´R´ankine): \n";
     std::cin>>a;
     
-    std::cout << std::fixed << std::setprecision(2);
     
     if (a == 'F') {
         
